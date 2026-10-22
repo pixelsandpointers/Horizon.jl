@@ -1,0 +1,10 @@
+[deps]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+Horizon = "01ca608a-abcf-4381-a7c1-537aae56f740"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+[sources]
+Horizon = {path = ".."}
+
+[compat]
+ForwardDiff = "0.10, 1"

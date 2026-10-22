@@ -1,0 +1,22 @@
+name = "Horizon"
+uuid = "01ca608a-abcf-4381-a7c1-537aae56f740"
+authors = ["Ben <benjamin.beilharz@pm.me>"]
+version = "0.1.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+[compat]
+ForwardDiff = "0.10, 1"
+LinearAlgebra = "1"
+Test = "1"
+Zygote = "0.6, 0.7"
+julia = "1.10"
+
+[extras]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+[targets]
+test = ["ForwardDiff", "Test", "Zygote"]

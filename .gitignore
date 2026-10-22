@@ -1,0 +1,4 @@
+/Manifest*.toml
+/examples/Manifest*.toml
+*.ppm
+.DS_Store
